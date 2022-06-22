@@ -1,17 +1,18 @@
-import './assets/App.css'
+
+import './App.css'
 
 function App() {
-
   const dia = 'Bom dia!'
-  const noite = 'Boa noite!'
+  const noite = 'Boa noite'
 
   return (
     <div className="App">
-      <div className="textos">
-        <h2>{dia}</h2>
-        <p>seja <strong className="color">bem-vindo</strong> ao meu site</p>
-      </div>
-    </div >
+      <header>
+        <section className="header"></section>
+      </header>
+      <main>hello world</main>
+      <footer></footer>
+    </div>
   )
 }
 
