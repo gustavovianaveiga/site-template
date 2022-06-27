@@ -1,6 +1,6 @@
 
 import './App.css'
-
+import Blackhole from './components/Blackhole.jsx'
 function App() {
   const dia = 'Bom dia!'
   const noite = 'Boa noite'
@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
       <header>
-        <section className="header"></section>
+        <section className="header">
+          <Blackhole />
+        </section>
       </header>
-      <main>hello world</main>
+      <main className='bg-black'><section className='estrutura'>{dia}</section></main>
       <footer></footer>
     </div>
   )
